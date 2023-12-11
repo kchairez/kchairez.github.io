@@ -45,28 +45,28 @@
                 </div>
             </nav>
             <!--Form-->
-            <form class="needs-validation">
+            <form class="needs-validation" action="https://formsubmit.co/ckevin256@gmail.com" method="POST">
                 <div class="row mt-5 p-3">
                     <h3><kbd>Contact and Feedback</kbd></h3>
                 </div>
                 <div class="row mt-5 p-3">
                     <div class="col-sm-4 mt-1">
                         <label for="name" class="form-label">Name:</label>
-                        <input type="text" class="form-control" id="name" placeholder="Enter name/affiliation" required>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter name/affiliation" required>
                         <div class="invalid-feedback">
                             Please fill out this field.
                         </div>
                     </div>
                     <div class="col-sm-4 mt-1">
                         <label for="email" class="form-label">Email:</label>
-                        <input type="text" class="form-control" placeholder="Enter email" id="email" required>
+                        <input type="email" class="form-control" placeholder="Enter email" id="email" name="email" required>
                         <div class="invalid-feedback">
                             Please fill out this field.
                         </div>
                     </div>
                     <div class="col-sm-4 mt-1">
                         <label for="browser" class="form-label">Browser:</label>
-                        <input type="text" class="form-control" placeholder="Enter browser accessed with" id="browser" required>
+                        <input type="text" class="form-control" placeholder="Enter browser accessed with" id="browser" name="browser" required>
                         <div class="invalid-feedback">
                             Please fill out this field.
                         </div>
@@ -76,7 +76,7 @@
                 <div class="row mt-5 p-3">
                     <div class="col-sm-12">
                         <label for="comment">Comments:</label>
-                        <textarea class="form-control" rows="5" id="comment" placeholder="What you liked and disliked about the website...Looking for someone to hire to create a website..." required></textarea>
+                        <textarea class="form-control" rows="5" id="comment" name="comment" placeholder="What you liked and disliked about the website...Looking for someone to hire to create a website..." required></textarea>
                         <div class="invalid-feedback">
                             Please fill out this field.
                         </div>
